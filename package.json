@@ -2,13 +2,13 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "dev": "run-p rollup:dev watch:tailwind",
-    "build": "npm run build:tailwind && npm run rollup:build",
+    "dev": "run-p dev:rollup watch:tailwind",
+    "build": "npm run build:tailwind && npm run build:rollup",
     "start": "sirv public",
     "watch:tailwind": "postcss src/css/tailwind.css -o public/global.css -w",
     "build:tailwind": "NODE_ENV=production postcss src/css/tailwind.css -o public/global.css",
-    "rollup:build": "rollup -c",
-    "rollup:dev": "rollup -c -w"
+    "build:rollup": "rollup -c",
+    "dev:rollup": "rollup -c -w"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
