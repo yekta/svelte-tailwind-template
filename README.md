@@ -1,4 +1,4 @@
-# Svelte App with Tailwind
+# Svelte with Tailwindcss
 
 This is a project template for [Svelte](https://svelte.dev) apps using [Tailwindcss](https://tailwindcss.com/).
 
