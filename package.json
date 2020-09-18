@@ -5,8 +5,8 @@
     "dev": "run-p dev:rollup watch:tailwind",
     "build": "npm run build:tailwind && npm run build:rollup",
     "start": "sirv public",
-    "watch:tailwind": "postcss src/css/tailwind.css -o public/global.css -w",
-    "build:tailwind": "NODE_ENV=production postcss src/css/tailwind.css -o public/global.css",
+    "watch:tailwind": "postcss src/css/tailwind.css -o public/build/global.css -w",
+    "build:tailwind": "NODE_ENV=production postcss src/css/tailwind.css -o public/build/global.css",
     "build:rollup": "rollup -c",
     "dev:rollup": "rollup -c -w"
   },
