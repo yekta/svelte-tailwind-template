@@ -1,6 +1,6 @@
 # Svelte with Tailwindcss
 
-This is a project template for [Svelte](https://svelte.dev) apps using [Tailwindcss](https://tailwindcss.com/).
+This is a project template for [Svelte](https://svelte.dev) apps using [Tailwindcss](https://tailwindcss.com/). Add your custom CSS to `src/css/tailwind.css` and it'll get complied to `public/global.css`.
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
